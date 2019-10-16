@@ -5,12 +5,12 @@
   
 
   
-  <title>sql | Hexo</title>
+  <title>sql注入实例及原理分析 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="一、sql注入实例：某建站系统后台ajax.php C_fid参数存在SQL注入漏洞1.对该系统后台界面中的某个表单进行编辑，同时抓包。2.对C_fid参数进行基于时间的盲注，利用sleep()函数进行延时注入判断，此时返回页面有5秒左右等待，说明插入的SQL语句执行成功。3.由此推断出C_fid参数存在注入点，可以通过构造sql语句来获取数据库名、数据库表名、表数量、数据等敏感信息。利用sqlm">
 <meta name="keywords" content="SQL inject">
 <meta property="og:type" content="article">
-<meta property="og:title" content="sql">
+<meta property="og:title" content="sql注入实例及原理分析">
 <meta property="og:url" content="http://yoursite.com/2019/10/16/test-sql/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="一、sql注入实例：某建站系统后台ajax.php C_fid参数存在SQL注入漏洞1.对该系统后台界面中的某个表单进行编辑，同时抓包。2.对C_fid参数进行基于时间的盲注，利用sleep()函数进行延时注入判断，此时返回页面有5秒左右等待，说明插入的SQL语句执行成功。3.由此推断出C_fid参数存在注入点，可以通过构造sql语句来获取数据库名、数据库表名、表数量、数据等敏感信息。利用sqlm">
@@ -20,9 +20,9 @@
 <meta property="og:image" content="http://yoursite.com/2019/10/16/test-sql/3.jpg">
 <meta property="og:image" content="http://yoursite.com/2019/10/16/test-sql/4.jpg">
 <meta property="og:image" content="http://yoursite.com/2019/10/16/test-sql/5.jpg">
-<meta property="og:updated_time" content="2019-10-16T15:04:24.517Z">
+<meta property="og:updated_time" content="2019-10-16T15:06:04.784Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="sql">
+<meta name="twitter:title" content="sql注入实例及原理分析">
 <meta name="twitter:description" content="一、sql注入实例：某建站系统后台ajax.php C_fid参数存在SQL注入漏洞1.对该系统后台界面中的某个表单进行编辑，同时抓包。2.对C_fid参数进行基于时间的盲注，利用sleep()函数进行延时注入判断，此时返回页面有5秒左右等待，说明插入的SQL语句执行成功。3.由此推断出C_fid参数存在注入点，可以通过构造sql语句来获取数据库名、数据库表名、表数量、数据等敏感信息。利用sqlm">
 <meta name="twitter:image" content="http://yoursite.com/2019/10/16/test-sql/1.jpg">
   
@@ -85,7 +85,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      sql
+      sql注入实例及原理分析
     </h1>
   
 
@@ -163,7 +163,7 @@
       <ul>
         
           <li>
-            <a href="/2019/10/16/test-sql/">sql</a>
+            <a href="/2019/10/16/test-sql/">sql注入实例及原理分析</a>
           </li>
         
           <li>
